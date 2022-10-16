@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+ :root{
+	 --lightblue:#f8fbfe;
+	 --blue:#124265;
+	 --gray:#6c757d;
+ }
+ .nav a{
+	color: #124265; 
+ }
+ .nav button{
+	color: #124265; 
+ }
+.nav-a:hover{
+	color:blue;
+}
+.logo a{
+	font-family: 'Poppins', sans-serif;
+	color: #124265;
+}
+.button button{
+	width:100px;
+	font-size:14px;
+}
+.nav{
+	font-size: 14px;
+	color:black;
+}
+
+.section-ban{
+	background-image:url("../image/hero-bg.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.sec-blue{
+	background-color: var(--lightblue);
+}
+
+.ban-boxs i{
+	font-size:35px;
+	color:var(--blue);
+}
+.btn{
+	width:150px;
+    margin:0 auto;
+	
+}
+
+.ban-boxs{
+	flex-wrap:nowrap;
+	justify-content: space-around;
+}
+
+.ban-box1{
+	background-color: white;
+    padding:25px 20px 10px 25px;
+    border-radius:3%;
+}
+
+.no-1 span{
+	font-size:50px;
+	color:var(--blue);
+	font-weight:bold;
+}
+.no-1 p
+{
+	
+    color: #1e6ca6;
+}
+
+.title {
+	font-size: 15px;	
+}
+.abt-video h4{
+	color:var(--blue);
+}
+.abt-video i{
+	color:var(--blue);
+}
+.client img{
+	width:45%;
+	filter:grayscale(10);
+	transition:all 1s 0.5s ease;
+}
+.client img:hover{
+	filter:grayscale(0);
+	transform:scale(1.5)
+}
+.testmonial{
+	background-color:green;
+	height:300px;
+}
+.ser-div{
+	font-size:20px;
+}
+.card {
+	font-size:12px;
+}
+.btn-2{
+	border: 2px solid white;
+}
+.team-img{
+	position:relative;
+}
+.team-link{
+	width:100%;
+	background: rgba(255, 255, 255, 0.85);
+	opacity:0;
+	position:absolute;
+	top:220px;
+	bottom:0px;
+	transition:all  0.5s ease;
+}
+.team:hover .team-link{
+	opacity:1;
+	
+	
+}
+.price-div p{
+    color:#124265;
+}
+.price-div h5{
+	color:var(--blue);
+}
+.col-12{
+	
+}
+.sec-info{
+	 box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.2);
+}
